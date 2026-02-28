@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "question": "如何在 Python 中读取 CSV 文件？",
+    "answer": "使用 pandas 库：import pandas as pd; df = pd.read_csv('file.csv')",
+    "category": "编程",
+    "tags": ["python", "csv", "数据处理"]
+  },
+  {
+    "id": 2,
+    "question": "什么是机器学习中的过拟合？",
+    "answer": "过拟合是指模型在训练数据上表现很好，但在新数据上表现差，因为模型记住了训练数据的噪声而非规律。",
+    "category": "机器学习",
+    "tags": ["机器学习", "理论"]
+  },
+  {
+    "id": 3,
+    "question": "如何在 Git 中撤销最后一次提交？",
+    "answer": "使用 git reset --soft HEAD~1 保留更改，或 git reset --hard HEAD~1 丢弃更改。",
+    "category": "编程",
+    "tags": ["git", "版本控制"]
+  },
+  {
+    "id": 4,
+    "question": "篮球比赛中什么是三分球？",
+    "answer": "三分球是指在三分线外投篮命中，可以得到 3 分。",
+    "category": "体育",
+    "tags": ["篮球", "规则"]
+  },
+  {
+    "id": 5,
+    "question": "足球比赛中什么是越位？",
+    "answer": "越位是指进攻球员在传球瞬间，位置比球和倒数第二名防守球员更接近对方球门线。",
+    "category": "体育",
+    "tags": ["足球", "规则"]
+  },
+  {
+    "id": 6,
+    "question": "如何在 JavaScript 中创建异步函数？",
+    "answer": "使用 async/await 语法：async function fetchData() { const data = await fetch(url); return data; }",
+    "category": "编程",
+    "tags": ["javascript", "异步编程"]
+  },
+  {
+    "id": 7,
+    "question": "什么是深度学习中的卷积神经网络？",
+    "answer": "CNN 是一种专门处理图像数据的神经网络，通过卷积层提取特征，常用于图像识别任务。",
+    "category": "机器学习",
+    "tags": ["深度学习", "CNN", "图像处理"]
+  },
+  {
+    "id": 8,
+    "question": "如何在 Python 中处理异常？",
+    "answer": "使用 try-except 块：try: risky_operation() except Exception as e: handle_error(e)",
+    "category": "编程",
+    "tags": ["python", "异常处理"]
+  },
+  {
+    "id": 9,
+    "question": "网球比赛中什么是 ACE 球？",
+    "answer": "ACE 球是指发球直接得分，对手没有触碰到球。",
+    "category": "体育",
+    "tags": ["网球", "术语"]
+  },
+  {
+    "id": 10,
+    "question": "如何在 SQL 中进行联表查询？",
+    "answer": "使用 JOIN 语句：SELECT * FROM table1 INNER JOIN table2 ON table1.id = table2.id",
+    "category": "编程",
+    "tags": ["sql", "数据库"]
+  },
+  {
+    "id": 11,
+    "question": "什么是自然语言处理中的词嵌入？",
+    "answer": "词嵌入是将词语映射到连续向量空间的技术，使语义相似的词在向量空间中距离更近。",
+    "category": "机器学习",
+    "tags": ["NLP", "词嵌入"]
+  },
+  {
+    "id": 12,
+    "question": "如何在 Docker 中运行容器？",
+    "answer": "使用命令：docker run -d -p 8080:80 image_name",
+    "category": "编程",
+    "tags": ["docker", "容器化"]
+  },
+  {
+    "id": 13,
+    "question": "游泳比赛中有哪些泳姿？",
+    "answer": "主要有自由泳、蛙泳、仰泳和蝶泳四种标准泳姿。",
+    "category": "体育",
+    "tags": ["游泳", "泳姿"]
+  },
+  {
+    "id": 14,
+    "question": "如何在 React 中使用 Hooks？",
+    "answer": "使用 useState 和 useEffect：const [state, setState] = useState(0); useEffect(() => { /* 副作用 */ }, []);",
+    "category": "编程",
+    "tags": ["react", "hooks", "前端"]
+  },
+  {
+    "id": 15,
+    "question": "什么是强化学习中的 Q-learning？",
+    "answer": "Q-learning 是一种无模型的强化学习算法，通过学习状态-动作值函数来找到最优策略。",
+    "category": "机器学习",
+    "tags": ["强化学习", "Q-learning"]
+  },
+  {
+    "id": 16,
+    "question": "如何在 Linux 中查看进程？",
+    "answer": "使用 ps aux 或 top 命令查看所有运行中的进程。",
+    "category": "编程",
+    "tags": ["linux", "系统管理"]
+  },
+  {
+    "id": 17,
+    "question": "马拉松比赛的标准距离是多少？",
+    "answer": "马拉松的标准距离是 42.195 公里（26.2 英里）。",
+    "category": "体育",
+    "tags": ["马拉松", "跑步"]
+  },
+  {
+    "id": 18,
+    "question": "如何在 Python 中创建虚拟环境？",
+    "answer": "使用命令：python -m venv myenv，然后激活：source myenv/bin/activate（Linux/Mac）或 myenv\\Scripts\\activate（Windows）",
+    "category": "编程",
+    "tags": ["python", "虚拟环境"]
+  },
+  {
+    "id": 19,
+    "question": "什么是迁移学习？",
+    "answer": "迁移学习是将在一个任务上训练好的模型应用到另一个相关任务上，可以减少训练时间和数据需求。",
+    "category": "机器学习",
+    "tags": ["迁移学习", "深度学习"]
+  },
+  {
+    "id": 20,
+    "question": "如何在 Node.js 中读取文件？",
+    "answer": "使用 fs 模块：const fs = require('fs'); fs.readFile('file.txt', 'utf8', (err, data) => { console.log(data); });",
+    "category": "编程",
+    "tags": ["nodejs", "文件操作"]
+  },
+  {
+    "id": 21,
+    "question": "羽毛球比赛的计分规则是什么？",
+    "answer": "采用 21 分制，每球得分，先得 21 分且领先 2 分的一方获胜。",
+    "category": "体育",
+    "tags": ["羽毛球", "规则"]
+  },
+  {
+    "id": 22,
+    "question": "如何在 Python 中使用装饰器？",
+    "answer": "定义装饰器函数：def decorator(func): def wrapper(*args): return func(*args); return wrapper，然后使用 @decorator 语法。",
+    "category": "编程",
+    "tags": ["python", "装饰器"]
+  },
+  {
+    "id": 23,
+    "question": "什么是 Transformer 模型？",
+    "answer": "Transformer 是基于自注意力机制的神经网络架构，广泛应用于 NLP 任务，如 BERT 和 GPT。",
+    "category": "机器学习",
+    "tags": ["transformer", "NLP", "深度学习"]
+  },
+  {
+    "id": 24,
+    "question": "如何在 MongoDB 中查询数据？",
+    "answer": "使用 find 方法：db.collection.find({ field: value })，可以添加条件和投影。",
+    "category": "编程",
+    "tags": ["mongodb", "数据库", "nosql"]
+  },
+  {
+    "id": 25,
+    "question": "乒乓球比赛中什么是旋转球？",
+    "answer": "旋转球是通过摩擦球体使其产生旋转，包括上旋、下旋、侧旋等，影响球的飞行轨迹。",
+    "category": "体育",
+    "tags": ["乒乓球", "技术"]
+  },
+  {
+    "id": 26,
+    "question": "如何在 Java 中实现多线程？",
+    "answer": "继承 Thread 类或实现 Runnable 接口：class MyThread extends Thread { public void run() { /* 代码 */ } }",
+    "category": "编程",
+    "tags": ["java", "多线程"]
+  },
+  {
+    "id": 27,
+    "question": "什么是生成对抗网络 GAN？",
+    "answer": "GAN 由生成器和判别器组成，生成器生成假数据，判别器区分真假，两者对抗训练以生成逼真数据。",
+    "category": "机器学习",
+    "tags": ["GAN", "生成模型", "深度学习"]
+  },
+  {
+    "id": 28,
+    "question": "如何在 Redis 中设置过期时间？",
+    "answer": "使用 EXPIRE 命令：EXPIRE key seconds，或在 SET 时使用 EX 参数：SET key value EX 3600",
+    "category": "编程",
+    "tags": ["redis", "缓存"]
+  },
+  {
+    "id": 29,
+    "question": "高尔夫球比赛中什么是标准杆？",
+    "answer": "标准杆（Par）是指完成一个球洞的标准杆数，通常根据球洞长度分为 Par 3、Par 4、Par 5。",
+    "category": "体育",
+    "tags": ["高尔夫", "术语"]
+  },
+  {
+    "id": 30,
+    "question": "如何在 TypeScript 中定义接口？",
+    "answer": "使用 interface 关键字：interface User { name: string; age: number; }",
+    "category": "编程",
+    "tags": ["typescript", "类型系统"]
+  },
+  {
+    "id": 31,
+    "question": "什么是注意力机制？",
+    "answer": "注意力机制允许模型在处理序列时动态关注不同位置的信息，提高了模型对重要信息的捕捉能力。",
+    "category": "机器学习",
+    "tags": ["注意力机制", "深度学习"]
+  },
+  {
+    "id": 32,
+    "question": "如何在 Kubernetes 中部署应用？",
+    "answer": "创建 Deployment 配置文件，然后使用：kubectl apply -f deployment.yaml",
+    "category": "编程",
+    "tags": ["kubernetes", "容器编排"]
+  },
+  {
+    "id": 33,
+    "question": "拳击比赛中有哪些重量级别？",
+    "answer": "包括轻量级、中量级、重量级等多个级别，每个级别有体重上限。",
+    "category": "体育",
+    "tags": ["拳击", "规则"]
+  },
+  {
+    "id": 34,
+    "question": "如何在 Vue.js 中使用计算属性？",
+    "answer": "在 computed 选项中定义：computed: { fullName() { return this.firstName + ' ' + this.lastName; } }",
+    "category": "编程",
+    "tags": ["vue", "前端"]
+  },
+  {
+    "id": 35,
+    "question": "什么是批归一化？",
+    "answer": "批归一化（Batch Normalization）是对每个批次的数据进行标准化，加速训练并提高模型稳定性。",
+    "category": "机器学习",
+    "tags": ["批归一化", "深度学习"]
+  },
+  {
+    "id": 36,
+    "question": "如何在 GraphQL 中定义查询？",
+    "answer": "使用 query 关键字：query { user(id: 1) { name email } }",
+    "category": "编程",
+    "tags": ["graphql", "API"]
+  },
+  {
+    "id": 37,
+    "question": "滑雪比赛中有哪些项目？",
+    "answer": "包括高山滑雪、越野滑雪、跳台滑雪、自由式滑雪等多个项目。",
+    "category": "体育",
+    "tags": ["滑雪", "冬季运动"]
+  },
+  {
+    "id": 38,
+    "question": "如何在 Rust 中处理错误？",
+    "answer": "使用 Result 类型：fn divide(a: i32, b: i32) -> Result<i32, String> { if b == 0 { Err(\"除数不能为零\".to_string()) } else { Ok(a / b) } }",
+    "category": "编程",
+    "tags": ["rust", "错误处理"]
+  },
+  {
+    "id": 39,
+    "question": "什么是残差网络 ResNet？",
+    "answer": "ResNet 通过引入跳跃连接（skip connection）解决深层网络的梯度消失问题，使训练更深的网络成为可能。",
+    "category": "机器学习",
+    "tags": ["ResNet", "深度学习", "CNN"]
+  },
+  {
+    "id": 40,
+    "question": "如何在 Nginx 中配置反向代理？",
+    "answer": "在配置文件中添加：location / { proxy_pass http://backend_server; proxy_set_header Host $host; }",
+    "category": "编程",
+    "tags": ["nginx", "反向代理"]
+  },
+  {
+    "id": 41,
+    "question": "田径比赛中的十项全能包括哪些项目？",
+    "answer": "包括 100 米、跳远、铅球、跳高、400 米、110 米栏、铁饼、撑杆跳、标枪和 1500 米。",
+    "category": "体育",
+    "tags": ["田径", "十项全能"]
+  },
+  {
+    "id": 42,
+    "question": "如何在 Go 中使用 goroutine？",
+    "answer": "使用 go 关键字启动并发执行：go func() { /* 代码 */ }()，配合 channel 进行通信。",
+    "category": "编程",
+    "tags": ["go", "并发编程"]
+  },
+  {
+    "id": 43,
+    "question": "什么是 BERT 模型？",
+    "answer": "BERT 是基于 Transformer 的预训练语言模型，通过双向编码器学习上下文表示，在多个 NLP 任务上表现优异。",
+    "category": "机器学习",
+    "tags": ["BERT", "NLP", "预训练模型"]
+  },
+  {
+    "id": 44,
+    "question": "如何在 Flask 中创建 API？",
+    "answer": "使用装饰器定义路由：@app.route('/api/data', methods=['GET']) def get_data(): return jsonify({'data': 'value'})",
+    "category": "编程",
+    "tags": ["flask", "python", "API"]
+  },
+  {
+    "id": 45,
+    "question": "排球比赛的轮换规则是什么？",
+    "answer": "每次获得发球权时，队员按顺时针方向轮转一个位置，确保每个队员都有机会发球。",
+    "category": "体育",
+    "tags": ["排球", "规则"]
+  },
+  {
+    "id": 46,
+    "question": "如何在 Swift 中使用可选类型？",
+    "answer": "使用 ? 声明可选类型：var name: String? = nil，使用 if let 或 guard let 安全解包。",
+    "category": "编程",
+    "tags": ["swift", "可选类型"]
+  },
+  {
+    "id": 47,
+    "question": "什么是目标检测中的 YOLO 算法？",
+    "answer": "YOLO（You Only Look Once）是一种实时目标检测算法，将检测任务转化为回归问题，速度快且准确。",
+    "category": "机器学习",
+    "tags": ["YOLO", "目标检测", "计算机视觉"]
+  },
+  {
+    "id": 48,
+    "question": "如何在 Django 中创建模型？",
+    "answer": "继承 models.Model：class User(models.Model): name = models.CharField(max_length=100); email = models.EmailField()",
+    "category": "编程",
+    "tags": ["django", "python", "ORM"]
+  },
+  {
+    "id": 49,
+    "question": "冰球比赛中什么是帽子戏法？",
+    "answer": "帽子戏法是指一名球员在一场比赛中进三个球。",
+    "category": "体育",
+    "tags": ["冰球", "术语"]
+  },
+  {
+    "id": 50,
+    "question": "如何在 C++ 中使用智能指针？",
+    "answer": "使用 std::unique_ptr 或 std::shared_ptr：std::unique_ptr<int> ptr = std::make_unique<int>(10);",
+    "category": "编程",
+    "tags": ["c++", "智能指针", "内存管理"]
+  }
+]

@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "few-shot-selector"
+version = "0.1.0"
+description = "动态选择最相关的 few-shot 示例，解决 Prompt 僵化问题"
+authors = ["Chance Dean <novelnexusai@outlook.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+packages = [{include = "few_shot_selector", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+chromadb = "^0.4.22"
+sentence-transformers = "^2.3.1"
+rich = "^13.7.0"
+typer = "^0.9.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+black = "^23.12.0"
+ruff = "^0.1.9"
+
+[tool.poetry.scripts]
+few-shot-selector = "few_shot_selector.cli:app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+
+[tool.ruff]
+line-length = 88
+target-version = "py38"
