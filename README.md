@@ -14,6 +14,17 @@
 
 ---
 
+## Problem & solution
+
+Prompts often use fixed few-shot examples, which can mismatch the user's question:
+
+- A user asks about "sports" but the prompt contains "programming" examples, hurting results
+- Manually maintaining multiple prompt templates is tedious and hard to scale
+- Examples cannot be adjusted dynamically based on user input
+
+`few-shot-selector` solves this with vector-similarity retrieval: it matches the user's question to
+the most relevant stored examples and generates the prompt automatically.
+
 ## What it does
 
 `few-shot-selector` stores question-answer examples in a local ChromaDB with locally computed
@@ -50,14 +61,43 @@ few-shot-selector stats
 few-shot-selector add "question" "answer"
 ```
 
+## Project structure
+
+```
+few-shot-selector/
+├── src/few_shot_selector/
+│   ├── cli.py               # CLI interface
+│   ├── core.py              # Core vector retrieval logic
+│   ├── utils.py             # Utility functions
+│   └── data/qa_examples.json  # QA example data
+├── tests/                   # Unit tests
+├── pyproject.toml           # Poetry configuration
+└── README.md
+```
+
+## Tech stack
+
+- **ChromaDB** — lightweight vector database
+- **Sentence Transformers** — local embedding model (all-MiniLM-L6-v2)
+- **Rich** — terminal formatting and styling
+- **Typer** — CLI framework
+
 ## Development
 
 ```bash
+git clone https://github.com/PerryLink/few-shot-selector.git
+cd few-shot-selector
 poetry install
+
 poetry run pytest
 poetry run black .
 poetry run ruff check .
 ```
+
+## Related
+
+- [dsh-library](https://github.com/PerryLink/dsh-library) — the DSH plugin this project was ported into
+- [PerryLink](https://github.com/PerryLink) — the PerryLink DSH Plugin Family
 
 ## License
 
