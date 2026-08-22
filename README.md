@@ -1,6 +1,7 @@
 <div align="center">
 
 # Few-Shot-Selector
+[![Gitee](https://img.shields.io/badge/Gitee-mirror-c71d23?logo=gitee)](https://gitee.com/perrylink/few-shot-selector)
 
 **A CLI tool that dynamically selects the most relevant few-shot examples for LLM prompts using vector similarity.**
 
