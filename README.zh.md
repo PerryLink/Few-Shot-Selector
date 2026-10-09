@@ -40,7 +40,8 @@ Prompt 中通常使用固定的 few-shot 示例，可能与用户问题不匹配
 ## 快速开始
 
 ```bash
-pip install few-shot-selector
+pip install "git+https://github.com/PerryLink/Few-Shot-Selector.git"
+# （PyPI 未发布，源码直装）
 
 # 首次使用时初始化数据库
 few-shot-selector init

@@ -43,7 +43,8 @@ vector similarity and formats them into a prompt, so the few-shot examples alway
 ## Quick start
 
 ```bash
-pip install few-shot-selector
+pip install "git+https://github.com/PerryLink/Few-Shot-Selector.git"
+# (installs from source; not yet on PyPI)
 
 # Initialize the database on first use
 few-shot-selector init
